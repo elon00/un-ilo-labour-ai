@@ -1,0 +1,13 @@
+[package]
+name = "un_ilo_labour_ai"
+version = "0.1.0"
+edition = "2021"
+description = "ILO LabourTrust AI: International Decent Work Telemetry, Cross-Border Migrant Worker Rights and Maritime Labour Compliance"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
